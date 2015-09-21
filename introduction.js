@@ -1,6 +1,6 @@
 // js is dynamic pl
 // js is imperative
-// js is loosly typing
+// js is loosly typing   -- js parser wont through type errors
 // variables are immutable
 // js is OOPL
 // on Objects
@@ -43,7 +43,7 @@ console.log('arr: ', arr);
 // function literal
 var add = function(a, b){ // prefer this
 	return a + b;
-};
+};	
 
 function sub(a, b){
 	return a - b;
@@ -69,7 +69,7 @@ arr = [] // array literal
 var obj = {
 	a: 12,
 	b: function(val){
-		return val
+		return val;
 	},
 	c: [],
 	d : {}
@@ -105,6 +105,17 @@ console.log(calculate.sub(50, 30));
  */
 
  // inline comment
+
+ // immutable
+ // values are immutables in js, we cant change its value
+
+ // function has return key to early break; default is undefined
+
+ // booleans -- true and false
+
+
+
+
 
 
 
