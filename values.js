@@ -65,4 +65,4 @@ console.log(typeof infinity);
 
 var str1 = 'hello';
 var str2 = 'word';
-console.log(str1 + str2);
+console.log(str1 + str2); // not additoin but concat
