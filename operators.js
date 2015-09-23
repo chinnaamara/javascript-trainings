@@ -51,16 +51,41 @@ console.log(false? 'stmt 1' : 'stmt2');
 
 // ==> Logical operators:
 
-&& || !
+// && || !
 
-&& -- if first value is true it returns second
-    --  if first is false it return first value, will not check second value
+// && -- if first value is true it returns second
+//     --  if first is false it return first value, will not check second value
 
 
-|| -- if value is true it returns first, will not check second value
+// || -- if value is true it returns first, will not check second value
 
- -- if first value is false it will return second
+//  -- if first value is false it will return second
 
+//  ! -- will return opposite
+
+
+// !3
+// false
+// !true
+// false
+// !false
+// true
+
+// Short-Circuitet of Logical Operators
+
+var a = 10 || 1;
+
+var sum = 50;
+console.log(sum/a);
+
+// Automatic Type Convertion
+
+// 12 * null --> 0
+
+// '10' == 10 -- true
+// '10' === 10 -- false
+
+// === and !== will restrict automatic type converstion
 
 
 
