@@ -87,6 +87,30 @@ console.log(sum/a);
 
 // === and !== will restrict automatic type converstion
 
+// ==> expressions and statements
+
+// a piece of code which returs a value is an expression
+
+// statement is combinations of expressions
+
+// statements will terminate expressions will not terminate
+
+// ==> Variables
+var _val = 'sdf'
+
+var a = 12;
+
+console.log(a * a);
+var val;
+
+Rules:
+--> variable names are any strings except keywords like var if for etc..
+--> variable names cannot start with digits
+--> Digits can include in middle or at end
+--> $ and _ can include at start of variabe name
+
+
+
 
 
 
