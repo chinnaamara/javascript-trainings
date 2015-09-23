@@ -47,6 +47,22 @@ var str1 = 'z',
 
 console.log('ternary result: ', 2 < 3 ? 2 : 3);
 
+console.log(false? 'stmt 1' : 'stmt2');
+
+// ==> Logical operators:
+
+&& || !
+
+&& -- if first value is true it returns second
+    --  if first is false it return first value, will not check second value
+
+
+|| -- if value is true it returns first, will not check second value
+
+ -- if first value is false it will return second
+
+
+
 
 
 
