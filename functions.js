@@ -11,3 +11,40 @@ var add = function(){
 console.log(add(3, 6));
 
 console.log(2, 4, 6, 8, 10);
+
+// isNaN:
+
+//isNaN('a') -- true
+
+// isNaN(5) -- false
+
+
+// undefined and null
+
+// NaN
+// isNaN('a')
+// true
+// isNaN(5)
+// false
+// NaN == NaN
+// false
+// undefined == null
+// true
+// typeof undefined
+// "undefined"
+// typeof null
+// "object"
+// undefined == false
+// false
+// !undefined
+// true
+// !null
+// true
+// !0
+// true
+// ''
+// ""
+// !NaN
+// true
+
+console.log(isNaN(5));
