@@ -66,7 +66,7 @@ var odds = function(range){
 	}
 };
 
-// evens(20);
+evens(20);
 
 // odds(10);
 
@@ -84,7 +84,24 @@ var evens = function(range){
 	} while (num <= range)
 };
 
-evens(0);
+//evens(0);
+
+// for
+
+// for(initialization; expression?; increment/decrement){
+// 	statements;
+// }
+
+var evens_for = function(range){
+	console.log('/ evens_for');
+	for(i = 2; i <= range; i = i + 2) {
+		console.log(i);
+	}
+};
+
+evens_for(20);
+
+
 
 
 
