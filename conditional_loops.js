@@ -41,10 +41,52 @@ var result = function(marks){
 		}		
 };
 
-console.log(result('asd'));
-console.log(result(102));
+//console.log(result('asd'));
+//console.log(result(102));
 
 // while
+
+// while(expression) {
+
+// }
+
+var evens = function(range){
+	var num = 2;
+	while(num <= range) {
+		console.log(num);
+		num = num + 2;
+	}
+};
+
+var odds = function(range){
+	var num = 1;
+	while(num <= range) {
+		console.log(num);
+		num = num + 2;
+	}
+};
+
+// evens(20);
+
+// odds(10);
+
+// do
+
+// do{
+// 	// statements
+// }(expression?)
+
+var evens = function(range){
+	var num = 2;
+	do {
+		console.log(num);
+		num = num + 2;
+	} while (num <= range)
+};
+
+evens(0);
+
+
 
 
 
