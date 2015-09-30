@@ -1,9 +1,13 @@
-// if
+//conditional statements
+// if  
 // else
-// while
-// do
-// for
 // switch
+
+//conditional loops
+// while 
+// do 
+// for 
+
 
 //if
 
@@ -93,7 +97,6 @@ var evens = function(range){
 // }
 
 var evens_for = function(range){
-	console.log('/ evens_for');
 	for(i = 2; i <= range; i = i + 2) {
 		console.log(i);
 	}
@@ -101,9 +104,33 @@ var evens_for = function(range){
 
 evens_for(20);
 
+var max = function(a, b){
+	if (a > b) {
+		return a;
+	} else { 
+		return b;
+	}
+}
 
+var max2 = function(a, b){
+	return a > b ? a : b;
+}
+console.log(max2(50, 12));
 
+var max3 = function(a, b, c){
+	if(a > b && a > c) {
+		return a;
+	} else if(b > c){
+		return b;
+	} else { 
+		return c;
+	}
+};
 
+var max_three = function(a, b, c){
+	return max2(a, b) > c ? max2(a, b) : c;
+}
 
+console.log(max_three(40, 80, 90));
 
 
